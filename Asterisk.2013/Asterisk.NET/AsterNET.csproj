@@ -11,6 +11,7 @@
     <Description>AsterNET an Asterisk FastAGI and AMI framework for .NET</Description>
     <PackageReleaseNotes>Please see: https://github.com/AsterNET/AsterNET/commits/master</PackageReleaseNotes>
     <Configurations>Debug;Release;Travis</Configurations>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
